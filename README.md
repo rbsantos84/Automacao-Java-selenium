@@ -18,4 +18,17 @@ permitindo que os testes se concentrem apenas na lógica de negócio e não na e
 5 - Screenshot ao final de cada teste<br>
 6 - Validação de resultados esperados através de asserts e verificação de comportamento<br>
 7 - Chaveamento sobre qual browser utilizar
+_______________________________________
+
+## Funcionalidades Automatizadas: ##
+- Inserir conta
+- Alterar conta
+- Inserir conta com o mesmo nome
+- Inserir movimentação
+- Campos brigatórios movimentação
+- Movimentação futura
+- Remover movimentação
+- Remover conta com movimentação
+- saldo das contas
+- resumo mensal
 
