@@ -29,6 +29,6 @@ _______________________________________
 - Movimentação futura
 - Remover movimentação
 - Remover conta com movimentação
-- saldo das contas
-- resumo mensal
+- Saldo das contas
+- Resumo mensal
 
