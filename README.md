@@ -17,7 +17,10 @@ permitindo que os testes se concentrem apenas na lógica de negócio e não na e
 4 - Implementação de esperas explícitas e implícitas para lidar com sincronização de elementos dinâmicos<br>
 5 - Screenshot ao final de cada teste<br>
 6 - Validação de resultados esperados através de asserts e verificação de comportamento<br>
-7 - Chaveamento sobre qual browser utilizar
+7 - Chaveamento sobre qual browser utilizar<br>
+8 - Criação de framework para estruturação dos testes<br>
+9 - Suite Teste<br>
+10 - Executar testes remotamente, em diversas máquinas (inclusive, de sistemas operacionais distintos), utilizando o Selenium GRID
 _______________________________________
 
 ## Funcionalidades Automatizadas: ##
@@ -25,10 +28,20 @@ _______________________________________
 - Alterar conta
 - Inserir conta com o mesmo nome
 - Inserir movimentação
-- Campos brigatórios movimentação
+- Campos obrigatórios movimentação
 - Movimentação futura
 - Remover movimentação
 - Remover conta com movimentação
 - Saldo das contas
 - Resumo mensal
+________________________________________
 
+## Pre-Requisitos: ##
+Para executar o projeto na sua maquina Local:<br>
+
+[x] Configurar variaveis de ambiente, incluindo o caminhos da Jdk, maven, driver.
+     Nesse projeto está sendo utilizado chromediver versão 126.0.6478<br>
+     
+[x] Clonar o projeto para sua maquina através de algum terminal integrado a ferramenta de desenvolvimento ou apartada como por exemplo gitbash.<br>
+  
+    git clone https://github.com/rbsantos84/Automacao-Java-selenium.git
