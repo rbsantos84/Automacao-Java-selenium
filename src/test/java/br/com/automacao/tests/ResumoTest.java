@@ -15,7 +15,7 @@ import java.util.List;
 
 import static br.com.automacao.core.DriverFactory.getDriver;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ResumoTest extends BaseTest {
     private MenuPage menuPage = new MenuPage();
     private ResumoPage resumoPage = new ResumoPage();
@@ -44,6 +44,10 @@ public class ResumoTest extends BaseTest {
 //		} catch (NoSuchElementException e) {
 //
 //		}
+
+        resumoPage.selecionarAno("2016");
+        resumoPage.buscar();
+
         List<WebElement> elementosEncontrados =
                 DriverFactory.getDriver().findElements(By.xpath("//*[@id='tabelaExtrato']/tbody/tr"));
         Assert.assertEquals(0, elementosEncontrados.size());

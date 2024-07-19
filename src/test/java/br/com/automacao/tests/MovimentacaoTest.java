@@ -16,7 +16,7 @@ import java.util.List;
 
 import static br.com.automacao.utils.DataUtils.obterDataFormatada;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class MovimentacaoTest extends BaseTest {
 
     private MenuPage menuPage = new MenuPage();
@@ -31,7 +31,8 @@ public class MovimentacaoTest extends BaseTest {
         movPage.setDescricao("Movimentação do Teste");
         movPage.setInteressado("Interessado Qualquer");
         movPage.setValor("500");
-        movPage.setConta(Propriedades.NOME_CONTA_ALTERADA);
+     // movPage.setConta(Propriedades.NOME_CONTA_ALTERADA);
+        movPage.setConta("Conta para movimentacoes");
         movPage.setStatusPago();
         movPage.salvar();
 
@@ -64,7 +65,8 @@ public class MovimentacaoTest extends BaseTest {
         movPage.setDescricao("Movimentação do Teste");
         movPage.setInteressado("Interessado Qualquer");
         movPage.setValor("500");
-        movPage.setConta(Propriedades.NOME_CONTA_ALTERADA);
+     // movPage.setConta(Propriedades.NOME_CONTA_ALTERADA);
+        movPage.setConta("Conta para movimentacoes");
         movPage.setStatusPago();
         movPage.salvar();
 
