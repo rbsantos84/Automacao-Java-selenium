@@ -46,9 +46,10 @@ Para executar o projeto na sua maquina Local:<br>
 | Maven  | 3.9.8  |
 | Git   | 2.** ou a mais recente |
 
-[x] Configurar variaveis de ambiente, incluindo o caminhos da Jdk, maven, driver.
-     Nesse projeto está sendo utilizado chromediver versão 126.0.6478<br>
+[x] Configurar variaveis de ambiente, incluindo os caminhos da Jdk, maven e driver.
+     Na raiz do projeto tem a pasta imagens com print de como foi configurado as variaveis de ambiente. A versão do chromediver utilizada é a 126.0.6478
+     se encontra na raiz do projeto na pasta driver, assim como o maven e o selenium grid<br>
 
-[x] Clonar o projeto para sua maquina através de algum terminal integrado a ferramenta de desenvolvimento ou apartada como por exemplo gitbash.<br>
+[x] Clonar o projeto para sua maquina através de algum terminal integrado a ferramenta de desenvolvimento, ou apartada como por exemplo gitbash.<br>
   
     git clone https://github.com/rbsantos84/Automacao-Java-selenium.git 
