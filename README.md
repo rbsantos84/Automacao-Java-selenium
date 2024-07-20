@@ -39,12 +39,16 @@ ________________________________________
 ## Pre-Requisitos: ##
 Para executar o projeto na sua maquina Local:<br>
 
+| Ferramenta    | Versão     |
+|--------------|--------------|
+| Intellij    | 2024(community Edition)|
+| Java JDK   | 11  |
+| Maven  | 3.9.8  |
+| Git   | 2.** ou a mais recente |
+
 [x] Configurar variaveis de ambiente, incluindo o caminhos da Jdk, maven, driver.
      Nesse projeto está sendo utilizado chromediver versão 126.0.6478<br>
 
-<img src="[https://github.com/rbsantos84/Automacao-Java-selenium/blob/main/imagens/img2.png]" alt="Variaveis de Ambiente">
-     
 [x] Clonar o projeto para sua maquina através de algum terminal integrado a ferramenta de desenvolvimento ou apartada como por exemplo gitbash.<br>
   
-    git clone https://github.com/rbsantos84/Automacao-Java-selenium.git     
-
+    git clone https://github.com/rbsantos84/Automacao-Java-selenium.git 
