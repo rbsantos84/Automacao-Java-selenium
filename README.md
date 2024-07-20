@@ -44,32 +44,7 @@ Para executar o projeto na sua maquina Local:<br>
 
 <img src="[https://github.com/rbsantos84/Automacao-Java-selenium/blob/main/imagens/img1.GIF]" alt="Variaveis de Ambiente">
      
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[x] Clonar o projeto para sua maquina através de algum terminal integrado a ferramenta de desenvolvimento ou apartada como por exemplo gitbash.<br>
+  
+    git clone https://github.com/rbsantos84/Automacao-Java-selenium.git     
 
